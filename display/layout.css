@@ -1,0 +1,42 @@
+﻿* {-webkit-user-select: none;  /* prevent copy paste for all elements */}
+html, body {
+  margin: 0px;
+  width:100%;height:100%;
+  font-family:arial;
+}
+#container {
+  width:100%;height:100%;
+/*  width: 480px;
+  height: 320px; */
+  background-color: black;
+}
+#container.portrait {
+  width: 320px;
+  height: 480px;
+}
+.overlay {
+  cursor:pointer;
+}
+.overlay img {
+  width:100%;
+  height:100%;
+  }
+.popover {
+  width:200px;
+  height:200px;
+  background: rgb(0,0,0);
+  padding:10px;
+  border:3px solid black;
+  border-radius:1em;
+  -moz-border-radius:1em;
+  -webkit-border-radius:1em;
+  color: #DEDEDE;
+}
+.closebutton {
+  color:white;
+  display:block;
+  padding:10px;
+  margin-top:10px;
+  cursor:pointer;
+  position:absolute;bottom:0;left:0;
+}
